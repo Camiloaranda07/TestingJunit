@@ -26,4 +26,8 @@ public class PasswordUtilTest {
     public void strong_when_has_letters_numbers_and_symbols() {
         assertEquals(STRONG, PasswordUtil.assessPassword("abcd123!"));
     }
+
+    /**
+     * comentario de prueba
+     * */
 }
